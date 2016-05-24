@@ -7,13 +7,13 @@ public class SearchName {
 	
 	public static void main(String[] args) {
 		
-		String[] vet = { "Abrão", "Abraão", "Aci", "Acira", "Ada", "Adail", "Adalberto", "Adália",
-				"Adalgisa", "Adalton", "Adamir", "Adamo", "Adão", "Adauto", "Adelaide", "Adélia", "Adelina", "Aline",
-				"Ademar", "Ademir", "Adina", "Adir", "Adira", "Ado", "Adolfo", "Adonias", "Adoniran", "Adônis", "Adriana",
-				"Adriane", "Adriano", "Aécio", "Afonso", "Agar", "Ágata", "Agenor", "Agildo", "Agnaldo", "Agnelo",
-				"Aguinaldo", "Aída", "Aimoré", "Airumã", "Akira", "Alan", "Alba", "Alberico", "Albertina", "Alberto",
+		String[] vet = {"Abrão", "Abraão", "Aci", "Acira", "Ada", "Adail", "Adalberto Dinormino", "Adália",
+				"Adalgisa", "Adalton", "Adamir", "Adamo", "Adão e Eva", "Adauto", "Adelaide", "Adélia", "Adelina", "Aline",
+				"Ademar", "Ademir", "Adina", "Adir", "Adira", "Adolfo", "Adonias", "Adoniran", "Adônis", "Adriana",
+				"Adriane", "Adriano", "Aécio Nevez", "Afonso", "Agar", "Ágata", "Agenor", "Agildo", "Agnaldo", "Agnelo",
+				"Aguinaldo", "Aída", "Aimoré", "Airumã", "Akira Toryama", "Alan Cardoso", "Alba", "Alberico", "Albertina", "Alberto",
 				"Albino", "Alceu", "Alcina", "Alcione", "Alcindo", "Alcione", "Alda", "Aldir", "Aldo", "Aleixo",
-				"Alejandra", "Alexandre", "Alfeu", "Alfredo", "Alice", "Alícia", "Alina", "Aline", "Alípio", "Alma",
+				"Alejandra", "Alexander The Great", "Alfeu", "Alfredo", "Alice", "Alícia", "Alina", "Aline", "Alípio", "Alma",
 				"Almeida", "Almir", "Almira", "Aloísio", "Altino", "Álvaro", "Alzira", "Amadeu", "Amador", "Amália",
 				"Amanda", "Amândio", "Amauri", "Aarão", "Arão", "Abaçaí", "Abacílio", "Abel", "Abelardo", "Abella",
 				"Abigail", "Abílio", "Abner", "Ambrósio", "Amélia", "América", "Américo", "Amílcar", "Amin", "Amir", "Ana",
@@ -23,22 +23,22 @@ public class SearchName {
 				"Celina", "Celso", "Cátia", "Cecília", "Cesar", "Cibele", "Cícero", "Cíntia", "Cirilo", "Ciro", "Clara",
 				"Clarissa", "Cláudio", "Cleber", "Clécio", "Clemente", "Cleusa", "Clodoaldo", "Clodomiro", "Clodovil",
 				"Colombo", "Conceição", "Conrado", "Crispim", "Cristiano", "Cristina", "Cristóvão", "Custódio", "Dácio",
-				"Dafne", "Dagoberto", "Dalila", "Dalton", "Damião", "Daniel", "Daniela", "Eduardo", "Emanuel", "Eliana",
-				"Enzo", "Erick", "Emilly", "Evelyn", "Fernanda", "Filipa", "Franklin", "Fausto", "Gabrieli", "Giuliana",
-				"Guilherme", "Gustavo", "Helena", "Heloísa", "Henrique", "Henry", "Ian", "Isabela", "Isadora", "Iasmin",
-				"Joaquim", "Juliano", "Joice", "Júlia", "Kevin", "Kelly", "Kaique", "Laura", "Luiza", "Lauro", "Lorenzo",
-				"Milena", "Melissa", "Miguel", "Matheus", "Nicolas", "Noah", "Natha", "Odete", "Ofélia", "Oliveira",
+				"Dafne", "Dagoberto", "Dalila", "Dalton", "Damião", "Daniel", "Daniela Dias", "Eduardo Vieira", "Emanuel do Céu", "Eliana",
+				"Enzo", "Erick", "Emilly Clarison", "Evelyn Touchen", "Ezio Auditore", "Fernanda", "Filipa", "Franklin Burns", "Fausto", "Gabrieli", "Giuliana",
+				"Guilherme Gusmão", "Gustavo Gusmão", "Helena", "Heloísa", "Henrique", "Henry", "Ian", "Isabela", "Isadora Paw", "Iasmin",
+				"Joaquim Rocha", "Juliano", "Joice", "Júlia", "Kevin Willhians", "Kelly", "Kaique", "Laura", "Luiza", "Lauro", "Lorenzo",
+				"Milena", "Melissa", "Miguel Souza Filho", "Matheus Vitor", "Nicolay Rastarov", "Noah", "Natha", "Odete", "Ofélia", "Oliveira",
 				"Otília", "Pietra", "Pérola", "Pietro", "Pierre", "Quezia", "Queiroz", "Raissa", "Rayane", "Ryan", "Rafael",
-				"Renato", "Samara", "Samuel", "Sandro", "Thiago", "Téo", "Tales", "Talita", "Tainá", "Úrsula", "Úlima",
-				"Uriel", "Ugo", "Vinícius", "Vitor", "Valentina", "Verônica", "William", "Wesley", "Wilma", "Walesca",
-				"Ximenes", "Xande", "Yago", "Yuri", "Yara", "Yanni", "Zilda", "Zara", "Zaqueu", "Zeca", };
+				"Renato", "Samara", "Samuel", "Sandro", "Thiago de Souza", "Téo", "Tales", "Talita", "Tainá", "Úrsula", "Úlima",
+				"Uriel", "Ugo", "Vinícius Paulo", "Vitor Ugo", "Valentina", "Verônica", "William dos Santos", "Wesley", "Wilma", "Walesca",
+				"Ximenes", "Xande", "Yago", "Yuri", "Yara", "Yanni", "Zilda", "Zara", "Zaqueu", "Zeca da Silva"};
 		
 		vet = OrderVet(vet);
 		
 		int start = 0;
 		int end = vet.length;
 		System.out.print("Escreva um nome para procurar: ");
-		String x = kb.next();
+		String x = kb.nextLine();
 		
 		try {
 			int Answer = searchBinary(vet, start, end, x);
