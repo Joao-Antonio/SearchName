@@ -52,19 +52,19 @@ public class SearchName {
 	
 	public static String [] OrderVet(String [] vetAUX){
 		
-		for(int fixo = 0; fixo < vetAUX.length - 1; fixo++){
-			int menor = fixo;
+		for(int fix = 0; fix < vetAUX.length - 1; fix++){
+			int smaller = fix;
 			
-			for (int i = menor + 1; i < vetAUX.length; i++) {
-				if(Normalizer.normalize(vetAUX[i], Normalizer.Form.NFD).replaceAll("[^\\p{ASCII}]", "").compareToIgnoreCase(Normalizer.normalize(vetAUX[menor], Normalizer.Form.NFD).replaceAll("[^\\p{ASCII}]", "")) < 0){
-					menor = i;
+			for (int i = smaller + 1; i < vetAUX.length; i++) {
+				if(Normalizer.normalize(vetAUX[i], Normalizer.Form.NFD).replaceAll("[^\\p{ASCII}]", "").compareToIgnoreCase(Normalizer.normalize(vetAUX[smaller], Normalizer.Form.NFD).replaceAll("[^\\p{ASCII}]", "")) < 0){
+					smaller = i;
 				}
 			}
 			
-			if(menor != fixo){
-				String aux = vetAUX[fixo];
-				vetAUX[fixo] = vetAUX[menor];
-				vetAUX[menor] = aux;
+			if(smaller != fix){
+				String aux = vetAUX[fix];
+				vetAUX[fix] = vetAUX[smaller];
+				vetAUX[smaller] = aux;
 			}
 		}
 		
