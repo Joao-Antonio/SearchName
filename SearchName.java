@@ -1,5 +1,3 @@
-package BuscaDinamica;
-
 import java.text.Normalizer;
 import java.util.Scanner;
 
